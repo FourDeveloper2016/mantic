@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Document   : modulos.xml
+  Created on : 21 de agosto 2015, 09:50 AM
+  Author     : inegi
+  Description:
+        Relación de módulos
+ -->
+
+
+ <modulos load="true">
+
+   <module id="mantic" load="true" mapping="true" backing="true" dto="mx.org.kaana.kajool.db.dto" msg="/mx/org/kaana/kajool/msg">
+     <file-xml>mx/org/kaana/kajool/db/xml/mantic.xml</file-xml>
+     <file-xml>mx/org/kaana/kajool/db/xml/vistas.xml</file-xml>
+		 <file-xml>mx/org/kaana/kajool/db/xml/foxpro.xml</file-xml>
+     <file-xml>mx/org/kaana/kajool/db/xml/ireport.xml</file-xml>
+     <file-xml>mx/org/kaana/kajool/db/xml/josql.xml</file-xml>
+   </module>
+
+
+</modulos>

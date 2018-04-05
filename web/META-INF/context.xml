@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/MANTIC">
+  <!-- user id for production database -->
+  <!--Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/manticDS" password="Mantic2018" type="javax.sql.DataSource" url="jdbc:mysql://173.243.120.231:3306/bonanzaj_production?zeroDateTimeBehavior=convertToNull" username="bonanzaj_master"/-->
+
+  <!-- user id for training database -->
+  <!--Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/manticDS" password="Mantic2018" type="javax.sql.DataSource" url="jdbc:mysql://173.243.120.231:3306/bonanzaj_training?zeroDateTimeBehavior=convertToNull" username="bonanzaj_tester"/-->
+</Context>
+
